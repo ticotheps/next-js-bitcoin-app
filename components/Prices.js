@@ -17,6 +17,15 @@ class Prices extends React.Component {
 				</li>
 			);
 		} else if (this.state.currency === 'GBP') {
+			list = (
+				<li className='list-group-item'>
+					Bitcoin Rate for {this.props.bpi.GBP.description}:{' '}
+					<span className='badge badge-primary'>
+						{this.props.bpi.GBP.code}
+					</span>
+					<strong> {this.props.bpi.GBP.rate}</strong>
+				</li>
+			);
 		} else if (this.state.currency === 'EUR') {
 		}
 
