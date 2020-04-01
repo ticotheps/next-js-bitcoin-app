@@ -9,7 +9,8 @@ class Prices extends React.Component {
 		if (this.state.currency === 'USD') {
 			list = (
 				<li className='list-group-item'>
-					Bitcoin Rate for {this.props.bpi.USD.description}:{' '}
+					The Current Bitcoin Rate for the{' '}
+					{this.props.bpi.USD.description} is:{' '}
 					<span className='badge badge-primary'>
 						{this.props.bpi.USD.code}
 					</span>
