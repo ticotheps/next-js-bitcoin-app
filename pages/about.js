@@ -3,8 +3,8 @@ import Layout from '../components/Layout';
 const About = () => (
 	<Layout>
 		<div>
-			<h1>About Bitcoin Prices by Tico</h1>
-			<p>An application used to view Bitcoin prices!</p>
+			<h1>About Tico's Crypto Store</h1>
+			<p>A web application used to view Bitcoin prices!</p>
 		</div>
 	</Layout>
 );
