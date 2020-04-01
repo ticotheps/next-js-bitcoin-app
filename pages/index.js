@@ -5,7 +5,7 @@ const Index = (props) => (
 	<Layout>
 		<div>
 			<h1>Welcome to Tico's Crypto Store!</h1>
-			{props.bpi.time.updated}
+			<Prices bpi={props.bpi} />
 		</div>
 	</Layout>
 );
@@ -21,7 +21,7 @@ Index.getInitialProps = async function() {
 	return {
 		// 'bpi' = Bitcoin Price Index
 		bpi: data.bpi
-	}
+	};
 };
 
 export default Index;
