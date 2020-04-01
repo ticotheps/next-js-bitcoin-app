@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 const Layout = props => (
 	<div>
 		<Head>
-			<title>Bitcoin Prices by Tico</title>
+			<title>Tico's Crypto Store</title>
 			<link
 				rel='stylesheet'
 				href='https://bootswatch.com/4/lux/bootstrap.min.css'
