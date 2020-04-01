@@ -5,7 +5,7 @@ const Index = (props) => (
 	<Layout>
 		<div>
 			<h1>Welcome to Tico's Crypto Store!</h1>
-			{props.time.updated}
+			{props.bpi.time.updated}
 		</div>
 	</Layout>
 );
