@@ -1,10 +1,11 @@
 import Fetch from 'isomorphic-unfetch';
 import Layout from '../components/Layout';
 
-const Index = () => (
+const Index = (props) => (
 	<Layout>
 		<div>
 			<h1>Welcome to Tico's Crypto Store!</h1>
+			{props.time.updated}
 		</div>
 	</Layout>
 );
